@@ -1,0 +1,12 @@
+app_name: "BookStore"
+log_level: "debug"
+server:
+  port: 8085
+  host: "localhost"
+database:
+  host: "127.0.0.1:3306"
+  user: "root"
+  password: ""
+  dbname: "book_store"
+jwt:
+  secret: "secret123456"
